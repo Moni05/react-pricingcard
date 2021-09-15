@@ -28,7 +28,7 @@ export default class CourseCard extends Component{
                                     {notavailablefeatures.map((feature) => <li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>{feature}</li>)}
                                 </ul>
                                 <div className="d-grid">
-                                    <a href="#" className="btn btn-primary text-uppercase">Button</a>
+                                    <button href="#" className="btn btn-primary text-uppercase">Button</button>
                                 </div>
                             </div>
                         </div>
